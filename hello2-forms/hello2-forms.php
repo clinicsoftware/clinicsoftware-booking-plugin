@@ -7,9 +7,9 @@
  * @license   GPL 2.0+
  * @link      https://clinicsoftware.com
  *
- * Plugin Name:     Hello2 Forms
- * Plugin URI:      https://clinicsoftware.com
- * Description:     Builder for Stylish & Smart Forms (Bookings, Marketing, Leads, Appointments) 
+* Plugin Name:     Hello2 Forms
+ * Plugin URI:      https://github.com/clinicsoftware/clinicsoftware-booking-plugin
+ * Description:     Builder for Stylish & Smart Forms (Bookings, Marketing, Leads, Appointments)
  * Version:         1.0.0
  * Author:          Infinite Consultancy LTD
  * Author URI:      https://clinicsoftware.com

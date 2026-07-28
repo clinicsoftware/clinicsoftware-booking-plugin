@@ -8,43 +8,43 @@
     "src": "OpenCompleteForm.css"
   },
   "OpenForm.css": {
-    "file": "assets/OpenForm-6f153e65.css",
+    "file": "assets/OpenForm-b4e2517f.css",
     "src": "OpenForm.css"
   },
-  "_Breadcrumb-6f986fe7.js": {
-    "file": "assets/Breadcrumb-6f986fe7.js",
+  "_Breadcrumb-aca89d3d.js": {
+    "file": "assets/Breadcrumb-aca89d3d.js",
     "imports": [
       "src/app.js"
     ]
   },
-  "_Collapse-2be5404b.js": {
-    "file": "assets/Collapse-2be5404b.js",
+  "_Collapse-5fc2fe8f.js": {
+    "file": "assets/Collapse-5fc2fe8f.js",
     "imports": [
       "src/app.js"
     ]
   },
-  "_CreateFormBaseModal-c0fadf76.js": {
-    "file": "assets/CreateFormBaseModal-c0fadf76.js",
+  "_CreateFormBaseModal-05847f62.js": {
+    "file": "assets/CreateFormBaseModal-05847f62.js",
     "imports": [
-      "_vform.es-3c5f7cee.js",
+      "_vform.es-77e82cc9.js",
       "src/app.js"
     ]
   },
-  "_ExtraMenu-e22a8014.js": {
-    "file": "assets/ExtraMenu-e22a8014.js",
+  "_ExtraMenu-08ade067.js": {
+    "file": "assets/ExtraMenu-08ade067.js",
     "imports": [
       "src/app.js",
-      "_FormTemplateModal-dc62094e.js"
+      "_FormTemplateModal-edf83205.js"
     ]
   },
-  "_FormCleanings-29c3e46a.js": {
-    "file": "assets/FormCleanings-29c3e46a.js",
+  "_FormCleanings-794c01ae.js": {
+    "file": "assets/FormCleanings-794c01ae.js",
     "imports": [
-      "_Collapse-2be5404b.js",
+      "_Collapse-5fc2fe8f.js",
       "src/app.js"
     ]
   },
-  "_FormEditor-74968cba.js": {
+  "_FormEditor-4c86a49f.js": {
     "css": [
       "assets/FormEditor-33c08721.css"
     ],
@@ -52,78 +52,78 @@
       "src/components/open/forms/components/form-logic-components/FormBlockLogicEditor.vue",
       "src/components/open/forms/components/form-logic-components/FormBlockLogicEditor.vue"
     ],
-    "file": "assets/FormEditor-74968cba.js",
+    "file": "assets/FormEditor-4c86a49f.js",
     "imports": [
       "src/app.js",
-      "_vform.es-3c5f7cee.js",
-      "_index-eda32023.js",
-      "_Collapse-2be5404b.js",
-      "_OpenForm-ae025f83.js",
-      "_ProTag-a1a12568.js",
-      "_OpenCompleteForm-69e33726.js"
+      "_vform.es-77e82cc9.js",
+      "_index-aef5f3b0.js",
+      "_Collapse-5fc2fe8f.js",
+      "_OpenForm-c4fb20e0.js",
+      "_ProTag-5bf06e68.js",
+      "_OpenCompleteForm-6c61ba45.js"
     ],
     "isDynamicEntry": true
   },
-  "_FormTemplateModal-dc62094e.js": {
-    "file": "assets/FormTemplateModal-dc62094e.js",
+  "_FormTemplateModal-edf83205.js": {
+    "file": "assets/FormTemplateModal-edf83205.js",
     "imports": [
-      "_vform.es-3c5f7cee.js",
+      "_vform.es-77e82cc9.js",
       "src/app.js"
     ]
   },
-  "_OpenCompleteForm-69e33726.js": {
+  "_OpenCompleteForm-6c61ba45.js": {
     "css": [
       "assets/OpenCompleteForm-651cd157.css"
     ],
-    "file": "assets/OpenCompleteForm-69e33726.js",
+    "file": "assets/OpenCompleteForm-6c61ba45.js",
     "imports": [
-      "_vform.es-3c5f7cee.js",
-      "_OpenForm-ae025f83.js",
+      "_vform.es-77e82cc9.js",
+      "_OpenForm-c4fb20e0.js",
       "src/app.js",
-      "_Collapse-2be5404b.js",
-      "_FormCleanings-29c3e46a.js"
+      "_Collapse-5fc2fe8f.js",
+      "_FormCleanings-794c01ae.js"
     ]
   },
-  "_OpenForm-ae025f83.js": {
+  "_OpenForm-c4fb20e0.js": {
     "css": [
-      "assets/OpenForm-6f153e65.css"
+      "assets/OpenForm-b4e2517f.css"
     ],
     "dynamicImports": [
-      "_vue-hcaptcha.common-240e4a08.js"
+      "_vue-hcaptcha.common-1ef6cdae.js"
     ],
-    "file": "assets/OpenForm-ae025f83.js",
+    "file": "assets/OpenForm-c4fb20e0.js",
     "imports": [
       "src/app.js",
-      "_vform.es-3c5f7cee.js",
-      "_index-eda32023.js"
+      "_vform.es-77e82cc9.js",
+      "_index-aef5f3b0.js"
     ]
   },
-  "_ProTag-a1a12568.js": {
-    "file": "assets/ProTag-a1a12568.js",
+  "_ProTag-5bf06e68.js": {
+    "file": "assets/ProTag-5bf06e68.js",
     "imports": [
       "src/app.js"
     ]
   },
-  "_SingleTemplate-9ad97f1d.js": {
-    "file": "assets/SingleTemplate-9ad97f1d.js",
+  "_SingleTemplate-fc440c05.js": {
+    "file": "assets/SingleTemplate-fc440c05.js",
     "imports": [
       "src/app.js"
     ]
   },
-  "_index-eda32023.js": {
-    "file": "assets/index-eda32023.js",
+  "_index-aef5f3b0.js": {
+    "file": "assets/index-aef5f3b0.js",
     "imports": [
       "src/app.js"
     ]
   },
-  "_vform.es-3c5f7cee.js": {
-    "file": "assets/vform.es-3c5f7cee.js",
+  "_vform.es-77e82cc9.js": {
+    "file": "assets/vform.es-77e82cc9.js",
     "imports": [
       "src/app.js"
     ]
   },
-  "_vue-hcaptcha.common-240e4a08.js": {
-    "file": "assets/vue-hcaptcha.common-240e4a08.js",
+  "_vue-hcaptcha.common-1ef6cdae.js": {
+    "file": "assets/vue-hcaptcha.common-1ef6cdae.js",
     "imports": [
       "src/app.js"
     ],
@@ -206,15 +206,15 @@
       "src/components/forms/RichTextAreaInput.vue",
       "src/components/forms/DateInput.vue",
       "src/components/forms/PhoneInput.vue",
-      "_FormEditor-74968cba.js",
+      "_FormEditor-4c86a49f.js",
       "src/components/open/NotionPage.vue"
     ],
-    "file": "assets/app-d1a6c1b2.js",
+    "file": "assets/app-a3a3b586.js",
     "isEntry": true,
     "src": "src/app.js"
   },
   "src/components/forms/ChatGptInput.vue": {
-    "file": "assets/ChatGptInput-35dfb64c.js",
+    "file": "assets/ChatGptInput-8b5a200e.js",
     "imports": [
       "src/app.js"
     ],
@@ -222,7 +222,7 @@
     "src": "src/components/forms/ChatGptInput.vue"
   },
   "src/components/forms/DateInput.vue": {
-    "file": "assets/DateInput-4e58fa3c.js",
+    "file": "assets/DateInput-dad451bc.js",
     "imports": [
       "src/app.js"
     ],
@@ -230,7 +230,7 @@
     "src": "src/components/forms/DateInput.vue"
   },
   "src/components/forms/PhoneInput.vue": {
-    "file": "assets/PhoneInput-ebae9716.js",
+    "file": "assets/PhoneInput-92709361.js",
     "imports": [
       "src/app.js"
     ],
@@ -245,7 +245,7 @@
     "css": [
       "assets/RichTextAreaInput-e178b42f.css"
     ],
-    "file": "assets/RichTextAreaInput-00af15f3.js",
+    "file": "assets/RichTextAreaInput-1796d77a.js",
     "imports": [
       "src/app.js"
     ],
@@ -253,7 +253,7 @@
     "src": "src/components/forms/RichTextAreaInput.vue"
   },
   "src/components/forms/SignatureInput.vue": {
-    "file": "assets/SignatureInput-219efddc.js",
+    "file": "assets/SignatureInput-15c44f52.js",
     "imports": [
       "src/app.js"
     ],
@@ -268,7 +268,7 @@
     "css": [
       "assets/NotionPage-21aa6d49.css"
     ],
-    "file": "assets/NotionPage-cad9de0a.js",
+    "file": "assets/NotionPage-6e07b8da.js",
     "imports": [
       "src/app.js"
     ],
@@ -276,17 +276,17 @@
     "src": "src/components/open/NotionPage.vue"
   },
   "src/components/open/forms/components/form-logic-components/FormBlockLogicEditor.vue": {
-    "file": "assets/FormBlockLogicEditor-32aefcf0.js",
+    "file": "assets/FormBlockLogicEditor-d50ef2a8.js",
     "imports": [
-      "_ProTag-a1a12568.js",
+      "_ProTag-5bf06e68.js",
       "src/app.js",
-      "_FormEditor-74968cba.js",
-      "_index-eda32023.js",
-      "_vform.es-3c5f7cee.js",
-      "_Collapse-2be5404b.js",
-      "_OpenForm-ae025f83.js",
-      "_OpenCompleteForm-69e33726.js",
-      "_FormCleanings-29c3e46a.js"
+      "_FormEditor-4c86a49f.js",
+      "_index-aef5f3b0.js",
+      "_vform.es-77e82cc9.js",
+      "_Collapse-5fc2fe8f.js",
+      "_OpenForm-c4fb20e0.js",
+      "_OpenCompleteForm-6c61ba45.js",
+      "_FormCleanings-794c01ae.js"
     ],
     "isDynamicEntry": true,
     "src": "src/components/open/forms/components/form-logic-components/FormBlockLogicEditor.vue"
@@ -470,7 +470,7 @@
     "src": "src/fonts/general-sans/GeneralSans-VariableItalic.woff2"
   },
   "src/pages/actions/actions.vue": {
-    "file": "assets/actions-e378c9d6.js",
+    "file": "assets/actions-2bea9e8d.js",
     "imports": [
       "src/app.js"
     ],
@@ -478,16 +478,16 @@
     "src": "src/pages/actions/actions.vue"
   },
   "src/pages/actions/edit.vue": {
-    "file": "assets/edit-51e836b1.js",
+    "file": "assets/edit-f12e4b59.js",
     "imports": [
-      "_vform.es-3c5f7cee.js",
+      "_vform.es-77e82cc9.js",
       "src/app.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/actions/edit.vue"
   },
   "src/pages/actions/index.vue": {
-    "file": "assets/index-755d95eb.js",
+    "file": "assets/index-9a9d4acf.js",
     "imports": [
       "src/app.js"
     ],
@@ -495,7 +495,7 @@
     "src": "src/pages/actions/index.vue"
   },
   "src/pages/errors/404.vue": {
-    "file": "assets/404-c54c501f.js",
+    "file": "assets/404-e8c1c174.js",
     "imports": [
       "src/app.js"
     ],
@@ -503,81 +503,81 @@
     "src": "src/pages/errors/404.vue"
   },
   "src/pages/forms/create-guest.vue": {
-    "file": "assets/create-guest-508b3672.js",
+    "file": "assets/create-guest-39566d30.js",
     "imports": [
       "src/app.js",
-      "_vform.es-3c5f7cee.js",
-      "_CreateFormBaseModal-c0fadf76.js"
+      "_vform.es-77e82cc9.js",
+      "_CreateFormBaseModal-05847f62.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/forms/create-guest.vue"
   },
   "src/pages/forms/create.vue": {
-    "file": "assets/create-1b3e0b34.js",
+    "file": "assets/create-8bb3bfcc.js",
     "imports": [
       "src/app.js",
-      "_vform.es-3c5f7cee.js",
-      "_CreateFormBaseModal-c0fadf76.js"
+      "_vform.es-77e82cc9.js",
+      "_CreateFormBaseModal-05847f62.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/forms/create.vue"
   },
   "src/pages/forms/edit.vue": {
-    "file": "assets/edit-8edd3902.js",
+    "file": "assets/edit-8e00d829.js",
     "imports": [
       "src/app.js",
-      "_Breadcrumb-6f986fe7.js",
-      "_vform.es-3c5f7cee.js"
+      "_Breadcrumb-aca89d3d.js",
+      "_vform.es-77e82cc9.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/forms/edit.vue"
   },
   "src/pages/forms/show-public.vue": {
-    "file": "assets/show-public-0b56b268.js",
+    "file": "assets/show-public-49da9fdc.js",
     "imports": [
       "src/app.js",
-      "_OpenCompleteForm-69e33726.js",
-      "_vform.es-3c5f7cee.js",
-      "_OpenForm-ae025f83.js",
-      "_index-eda32023.js",
-      "_Collapse-2be5404b.js",
-      "_FormCleanings-29c3e46a.js"
+      "_OpenCompleteForm-6c61ba45.js",
+      "_vform.es-77e82cc9.js",
+      "_OpenForm-c4fb20e0.js",
+      "_index-aef5f3b0.js",
+      "_Collapse-5fc2fe8f.js",
+      "_FormCleanings-794c01ae.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/forms/show-public.vue"
   },
   "src/pages/forms/show/index.vue": {
-    "file": "assets/index-0e58b0c9.js",
+    "file": "assets/index-b221587e.js",
     "imports": [
       "src/app.js",
-      "_vform.es-3c5f7cee.js",
-      "_ProTag-a1a12568.js",
-      "_ExtraMenu-e22a8014.js",
-      "_FormCleanings-29c3e46a.js",
-      "_FormTemplateModal-dc62094e.js",
-      "_Collapse-2be5404b.js"
+      "_vform.es-77e82cc9.js",
+      "_ProTag-5bf06e68.js",
+      "_ExtraMenu-08ade067.js",
+      "_FormCleanings-794c01ae.js",
+      "_FormTemplateModal-edf83205.js",
+      "_Collapse-5fc2fe8f.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/forms/show/index.vue"
   },
   "src/pages/forms/show/share.vue": {
-    "file": "assets/share-ff605ba6.js",
+    "file": "assets/share-e71b170f.js",
     "imports": [
       "src/app.js",
-      "_ProTag-a1a12568.js",
-      "_OpenForm-ae025f83.js",
-      "_Collapse-2be5404b.js",
-      "_vform.es-3c5f7cee.js",
-      "_index-eda32023.js"
+      "_ProTag-5bf06e68.js",
+      "_OpenForm-c4fb20e0.js",
+      "_Collapse-5fc2fe8f.js",
+      "_vform.es-77e82cc9.js",
+      "_index-aef5f3b0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/forms/show/share.vue"
   },
   "src/pages/forms/show/stats.vue": {
-    "file": "assets/stats-4b84c124.js",
+    "file": "assets/stats-b58b63fe.js",
     "imports": [
       "src/app.js",
-      "_ProTag-a1a12568.js"
+      "_ProTag-5bf06e68.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/forms/show/stats.vue"
@@ -590,28 +590,28 @@
     "css": [
       "assets/submissions-dd56dbe8.css"
     ],
-    "file": "assets/submissions-22d4ec9e.js",
+    "file": "assets/submissions-6c37c5cb.js",
     "imports": [
       "src/app.js",
-      "_vform.es-3c5f7cee.js",
-      "_index-eda32023.js"
+      "_vform.es-77e82cc9.js",
+      "_index-aef5f3b0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/forms/show/submissions.vue"
   },
   "src/pages/home.vue": {
-    "file": "assets/home-97a50afb.js",
+    "file": "assets/home-a43cfeec.js",
     "imports": [
       "src/app.js",
-      "_vform.es-3c5f7cee.js",
-      "_ExtraMenu-e22a8014.js",
-      "_FormTemplateModal-dc62094e.js"
+      "_vform.es-77e82cc9.js",
+      "_ExtraMenu-08ade067.js",
+      "_FormTemplateModal-edf83205.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/home.vue"
   },
   "src/pages/settings/index.vue": {
-    "file": "assets/index-54dc8864.js",
+    "file": "assets/index-832f363c.js",
     "imports": [
       "src/app.js"
     ],
@@ -619,9 +619,9 @@
     "src": "src/pages/settings/index.vue"
   },
   "src/pages/settings/workspace.vue": {
-    "file": "assets/workspace-b16b6c61.js",
+    "file": "assets/workspace-88827e80.js",
     "imports": [
-      "_vform.es-3c5f7cee.js",
+      "_vform.es-77e82cc9.js",
       "src/app.js"
     ],
     "isDynamicEntry": true,
@@ -635,28 +635,28 @@
     "css": [
       "assets/show-dfa6ddc3.css"
     ],
-    "file": "assets/show-14428d39.js",
+    "file": "assets/show-62b61a8f.js",
     "imports": [
       "src/app.js",
-      "_vform.es-3c5f7cee.js",
-      "_OpenCompleteForm-69e33726.js",
-      "_Breadcrumb-6f986fe7.js",
-      "_SingleTemplate-9ad97f1d.js",
-      "_FormTemplateModal-dc62094e.js",
-      "_OpenForm-ae025f83.js",
-      "_index-eda32023.js",
-      "_Collapse-2be5404b.js",
-      "_FormCleanings-29c3e46a.js"
+      "_vform.es-77e82cc9.js",
+      "_OpenCompleteForm-6c61ba45.js",
+      "_Breadcrumb-aca89d3d.js",
+      "_SingleTemplate-fc440c05.js",
+      "_FormTemplateModal-edf83205.js",
+      "_OpenForm-c4fb20e0.js",
+      "_index-aef5f3b0.js",
+      "_Collapse-5fc2fe8f.js",
+      "_FormCleanings-794c01ae.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/templates/show.vue"
   },
   "src/pages/templates/templates.vue": {
-    "file": "assets/templates-67481cc3.js",
+    "file": "assets/templates-9519fb13.js",
     "imports": [
       "src/app.js",
-      "_vform.es-3c5f7cee.js",
-      "_SingleTemplate-9ad97f1d.js"
+      "_vform.es-77e82cc9.js",
+      "_SingleTemplate-fc440c05.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/templates/templates.vue"
