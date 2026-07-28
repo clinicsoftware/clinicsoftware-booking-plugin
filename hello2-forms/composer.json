@@ -1,0 +1,123 @@
+{
+    "name": "wpbp/wordpress-plugin-boilerplate-powered",
+    "description": "Wordpress Plugin Boilerplate with steroids!",
+    "license": "GPL-3.0-or-later",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Infinite Consultancy LTD",
+            "email": "connect@clinicsoftware.com",
+            "homepage": "https://clinicsoftware.com"
+        }
+    ],
+    "homepage": "https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered",
+    "require": {
+        "php": "^8.1",
+        "ayecode/wp-super-duper": "2.0.2",
+        "cmb2/cmb2": "^2.11",
+        "composer/installers": "1.x",
+        "decodelabs/tagged": "^0.15.7",
+        "inpsyde/assets": "^2.8",
+        "inpsyde/wp-context": "^1.5.1",
+        "johnbillion/extended-cpts": "^5.1",
+        "micropackage/requirements": "^1.0",
+        "origgami/cmb2-grid": "dev-master",
+        "seravo/wp-custom-bulk-actions": "dev-master",
+        "stevegrunwell/wp-cache-remember": "dev-master",
+        "wpbp/cpt_columns": "1.0.*",
+        "wpbp/cronplus": "1.0.*",
+        "wpbp/debug": "1.1.*",
+        "wpbp/i18n-notice": "dev-main",
+        "wpbp/page-madness-detector": "^1.0",
+        "wpbp/pointerplus": "1.0.*",
+        "wpbp/template": "1.0.*",
+        "wpbp/widgets-helper": "1.0.*",
+        "wpdesk/wp-notice": "^3.2",
+        "ezyang/htmlpurifier": "^4.17",
+        "illuminate/validation": "^10.49",
+        "illuminate/translation": "^10.49",
+        "jrfnl/php-cast-to-type": "^2.1",
+        "hashids/hashids": "^5.0",
+        "adbario/php-dot-notation": "^3.3",
+        "openai-php/client": "^0.10.3",
+        "stripe/stripe-php": "^21.0"
+	},
+    "require-dev": {
+        "codeatcode/codeatcs": "^1.0",
+        "codeception/codeception": "^5.0",
+        "codeception/module-asserts": "^3.0",
+        "codeception/module-cli": "^2.0",
+        "codeception/module-db": "^3.1",
+        "codeception/module-filesystem": "^3.0",
+        "codeception/module-phpbrowser": "^2.0",
+        "codeception/module-rest": "^3.2",
+        "codeception/module-webdriver": "^3.2",
+        "codeception/util-universalframework": "^1.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "1.0.0",
+        "ergebnis/composer-normalize": "^2.6",
+        "lucatume/function-mocker": "~1.0",
+        "lucatume/wp-browser": "^4.0",
+        "phpunit/phpunit": "^9.2",
+        "szepeviktor/phpstan-wordpress": "^1.1.6"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ayecode/wp-super-duper"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Hello2Forms\\Backend\\": "backend/",
+            "Hello2Forms\\Frontend\\": "frontend/",
+            "Hello2Forms\\Rest\\": "rest/",
+            "Hello2Forms\\Ajax\\": "ajax/",
+            "Hello2Forms\\Internals\\": "internals/",
+            "Hello2Forms\\Cli\\": "cli/",
+            "Hello2Forms\\Integrations\\": "integrations/",
+			"Hello2Forms\\Engine\\": "engine/",
+			"Hello2Forms\\Service\\": "service/",
+			"Hello2Forms\\Repository\\": "repository/",
+			"Hello2Forms\\Migration\\": "migration/",
+			"Hello2Forms\\Architecture\\": "architecture/",
+			"Hello2Forms\\Function\\": "function/",
+			"Hello2Forms\\Validators\\": "validators/",
+			"Hello2Forms\\Rules\\": "rules/",
+			"Hello2Forms\\Controller\\": "controller/",
+			"Hello2Forms\\Casts\\": "casts/",
+			"Hello2Forms\\Lib\\": "lib/"
+        },
+        "files": [
+            "vendor/wp-custom-bulk-actions/custom-bulk-actions.php"
+        ]
+    },
+    "config": {
+		"platform": {
+			"php": "8.1"
+		},
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "ergebnis/composer-normalize": true,
+            "phpro/grumphp": true
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/{$name}/": [
+                "cmb2/cmb2",
+                "origgami/cmb2-grid",
+                "stevegrunwell/wp-cache-remember",
+                "seravo/wp-custom-bulk-actions"
+            ]
+        },
+        "patches": {
+            "ayecode/wp-super-duper": {
+                "Fix v2": "https://patch-diff.githubusercontent.com/raw/AyeCode/wp-super-duper/pull/25.patch"
+            }
+        }
+    }
+}
