@@ -61,7 +61,6 @@ class Vite {
 			'locale'               => 'en',
 			'locales'              => [ 'en' => 'EN' ],
 			'hCaptchaSiteKey'      => $settings['hCaptchaSiteKey'] ?? '',
-			'notion'               => [ 'worker' => '' ],
 			'nonce'                => wp_create_nonce( 'wp_rest' ),
 			'wordpress_location'   => site_url(),
 			'is_logged_in'         => is_user_logged_in() ? '1' : '0',

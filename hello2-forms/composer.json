@@ -13,9 +13,9 @@
     "homepage": "https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered",
     "require": {
         "php": "^8.1",
-        "ayecode/wp-super-duper": "2.0.2",
+        "ayecode/wp-super-duper": "3.0.8-beta",
         "cmb2/cmb2": "^2.11",
-        "composer/installers": "1.x",
+        "composer/installers": "^2.0",
         "decodelabs/tagged": "^0.15.7",
         "inpsyde/assets": "^2.8",
         "inpsyde/wp-context": "^1.5.1",
@@ -40,7 +40,9 @@
         "hashids/hashids": "^5.0",
         "adbario/php-dot-notation": "^3.3",
         "openai-php/client": "^0.10.3",
-        "stripe/stripe-php": "^21.0"
+        "stripe/stripe-php": "^21.0",
+        "symfony/http-client": "^6.4",
+        "nyholm/psr7": "^1.8"
 	},
     "require-dev": {
         "codeatcode/codeatcs": "^1.0",
@@ -102,7 +104,8 @@
             "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "ergebnis/composer-normalize": true,
-            "phpro/grumphp": true
+            "phpro/grumphp": true,
+            "php-http/discovery": true
         }
     },
     "extra": {

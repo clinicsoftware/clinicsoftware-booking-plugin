@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class Form  {
 	const DARK_MODE_VALUES = [ 'auto', 'light', 'dark' ];
-	const THEMES = [ 'default', 'simple', 'notion' ];
+	const THEMES = [ 'default', 'simple' ];
 	const WIDTHS = [ 'centered', 'full' ];
 	const VISIBILITY = [ 'public', 'draft', 'closed' ];
 }

@@ -59,11 +59,6 @@ Service provider: Slack (https://slack.com)
 Terms of service: https://slack.com/terms-of-service
 Privacy policy: https://slack.com/trust/privacy/privacy-policy
 
-= Notion (via api.vue-notion.workers.dev) =
-Used to render Notion pages inside a form (read-only).
-When a form embeds a Notion page by ID, the plugin calls `https://api.vue-notion.workers.dev/v1/page/{pageId}` from the user's browser to fetch the Notion page content. Data sent: the Notion page ID and the user's IP address / browser user-agent as forwarded by the browser. No form submission data is sent to this endpoint.
-Service provider: vue-notion (community project hosted on Cloudflare Workers) — https://github.com/motoso/vue-notion
-
 = OpenAI =
 Used by the optional "AI reply" form field to generate a chatbot-style response to the user's input.
 When an end-user submits a message in a form that has the OpenAI field enabled, the plugin sends the message text (and the surrounding conversation context, if any) to `https://api.openai.com/v1/chat/completions` from the WordPress server, authenticated with the API key the site admin entered in the plugin settings. The response text is returned to the end-user. No end-user identifying information is added by this plugin beyond what the form itself collected.
